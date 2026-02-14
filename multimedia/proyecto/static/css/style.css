@@ -555,6 +555,15 @@ header  {
 
             font-weight: bold;
         }
+
+        & video {
+            width: 100%;
+        }
+
+        & iframe {
+            width: 100%;
+            height: 315px;
+        }
     }
 }
 
@@ -603,7 +612,7 @@ footer {
             max-width: 90%;
             padding: 0 20px;
 
-            padding-top: 20px;
+            padding-top: 25px;
 
             & div {
                 margin-left: 0;
@@ -669,7 +678,7 @@ footer {
         & .barra_superior {
             padding: 0 15px;
 
-            padding-top: 20px;
+            padding-top: 50px;
 
             & div {
                 margin-left: 10px;
@@ -684,8 +693,8 @@ footer {
                     gap: 15px;
                     
                     position: absolute;
-                    top: 20px;
-                    left: 0;
+                    top: 25px;
+                    left: 100px;
 
                     width: 100%;
                 }
@@ -786,6 +795,21 @@ footer {
             flex-direction: column;
 
             gap: 50px;
+        }
+    }
+
+    .multimedia {
+        & .card {
+            width: 100%;
+            height: auto;
+
+            & video {
+                width: 100%;
+            }
+
+            & iframe {
+                width: 100%;
+            }
         }
     }
 }
