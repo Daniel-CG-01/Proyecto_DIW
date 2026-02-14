@@ -549,6 +549,12 @@ header  {
         padding: 30px;
 
         text-align: center;
+
+        & div {
+            color: white;
+
+            font-weight: bold;
+        }
     }
 }
 
