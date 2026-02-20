@@ -28,7 +28,7 @@ main {
 
     gap: 50px;
 
-    & .responsive, & .multimedia {
+    & .responsive, & .multimedia, & .accesibilidad {
         & .card {
             background-color: #1e1e1e;
 
