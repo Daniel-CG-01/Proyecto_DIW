@@ -535,11 +535,6 @@ footer {
     & p {
         font-size: 15px;
     }
-
-    & svg {
-        width: 175px;
-        height: 175px;
-    }
 }
 
 /* TABLET (entre 1000 y 700 píxeles) */
