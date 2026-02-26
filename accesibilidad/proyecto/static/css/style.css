@@ -9,6 +9,8 @@
 
 body {
     margin: 0;
+
+    line-height: 1.5;
 }
 
 /* ENCABEZADO */
@@ -498,7 +500,8 @@ header  {
 
             font-weight: bold;
 
-            padding: 10px;
+            /* padding: 10px; */
+            padding: 14px;
             padding-left: 25px;
             padding-right: 25px;
         }
@@ -513,7 +516,8 @@ footer {
     align-items: center;
 
     background-color: #242424;
-    color: gray;
+    /* color: gray; */
+    color: #b5b5b5;
 
     padding-top: 30px;
     padding-bottom: 30px;
